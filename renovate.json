@@ -2,6 +2,7 @@
   "rangeStrategy": "update-lockfile",
   "packageRules": [{
     "packagePatterns": ["*"],
-    "groupName": "all dependencies"
+    "groupName": "all dependencies",
+    "allowedVersions": "<4.1.2"
   }]
 }
